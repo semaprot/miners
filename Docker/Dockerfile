@@ -4,6 +4,7 @@ MAINTAINER pkulakovsky@gmail.com
 
 RUN apt-get update \
   && apt-get -y install vim cron \
+  && (crontab -l ; echo "5 * * * * /miners/reboot-miner.sh") | sort - | uniq - | crontab - \
   && git clone https://github.com/semaprot/miners.git \
   && cd miners \
   && npm install \
