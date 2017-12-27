@@ -1,0 +1,25 @@
+{
+  "name": "miners",
+  "version": "1.0.0",
+  "description": "Services for miners",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/semaprot/miners.git"
+  },
+  "author": "SemaProt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/semaprot/miners/issues"
+  },
+  "homepage": "https://github.com/semaprot/miners#readme",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "fs": "0.0.1-security",
+    "lodash": "^4.17.4",
+    "promise.prototype.finally": "^3.1.0"
+  }
+}
