@@ -7,7 +7,7 @@ var axios = require('axios');
 require('promise.prototype.finally').shim();
 
 var fs = require('fs');
-var data = fs.readFileSync('miners');
+var data = fs.readFileSync('minersList');
 var minersIP = data.toString().split('\n');
 
 let minutesLater = new Date();
