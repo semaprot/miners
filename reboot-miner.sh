@@ -1,5 +1,7 @@
 #!/bin/bash
 
+/usr/sbin/cron
+
 /bin/echo '' > ~/.ssh/known_hosts
 /bin/echo '' > /reboot.log
 

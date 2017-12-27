@@ -10,4 +10,4 @@ RUN apt-get update \
   && npm install \
   && chmod 0700 reboot-miner.sh
 
-ENTRYPOINT ["/usr/sbin/cron"]
+CMD /miners/reboot-miner.sh
